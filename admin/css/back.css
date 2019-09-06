@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+.flagBack {
+	float: right;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+#nameBack {
+	margin-top: -130px;
+	margin-left: 150px;
+}
+#positionBack {
+	margin-top: -15px;
+	margin-left: 153px;
+}
+#selectedBack {
+	position: relative;
+	right: -30px;
+}
+#mainBack {
+	position: relative;
+	left: 150px;
+	top: -375px;
+	width: 49em;
+	word-wrap: break-word;
+}
+div.infomsg {
+	margin-top: 1px;
+	margin-bottom: 1px;
+	text-align: center;
+	background: #dddddd;
+}
+div.infomsg p {
+	margin-top: 0pt;
+	margin-bottom: 1pt;
+	color: green;
+	background: #dddddd;
+}
+.error {
+	clear: left;
+	font-style: italic;
+	font-weight: normal;
+	color: red;
+	background: transparent;
+}
+ul.pagination {
+	text-align: center;
+	color: #fff;
+}
+ul.pagination li {
+	display: inline;
+	padding: 0 3px;
+}
+ul.pagination a {
+	display: inline-block;
+	padding: 5px 10px;
+	border: 1px solid #473335;
+	text-decoration: none;
+}
+ul.pagination a:hover, ul.pagination a.current {
+	background: #BF5142;
+	color: #fff;
+}
+#newsletter_button {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	-webkit-border-radius: 20;
+	-moz-border-radius: 20;
+	border-radius: 20px;
+	color: #ffffff;
+	font-size: 15px;
+	background: #BF5142;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+	margin-top: -7px;
+}
+#newsletter_button:hover {
+	background: #ff6666;
+	text-decoration: none;
+}
+.errorMessage {
+	color: white;
+	background-color: #ff0000;
+	margin: 10px;
+}

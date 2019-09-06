@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* CSS Document */
+.section-style {
+	margin: auto;
+	width: 80%;
+	padding: 10px;
+	background-color: #473335;
+}
+.article-style {
+	background-color: #473335;
+	min-height: 750px;
+}
+.header-style {
+	background-color: #BF5142;
+	color: white;
+	height: 100px;
+}
+.footer-style {
+	background-color: #BF5142;
+	color: white;
+	height: 30px;
+}
+.container-style {
+	background-image: url(../images/statines.jpg);
+	background-size: cover;
+}
+.menu-style {
+	background-color: #BF5142;
+	color: white;
+}
+.thumb {
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+}
+.button-link {
+	background: none!important;
+	border: none;
+	padding: 0!important;
+	margin-bottom: 15px;
+	/*font: inherit;*/
+    /*border is optional*/
+    /*border-bottom:1px solid #444;*/
+	cursor: pointer;
+	color: #FFFFFF;
+}
+.description-container{padding:0.01em 16px;
+margin-bottom:15px;}
